@@ -1,0 +1,12 @@
+{
+  "name": "guicheva/guicheva_testm",
+  "description": "Basic module to test Satis composer manager",
+  "type": "drupal-custom-module",
+  "authors": [
+    {
+      "name": "Guillaume Chevalier",
+      "email": "chevalier321@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev"
+}
