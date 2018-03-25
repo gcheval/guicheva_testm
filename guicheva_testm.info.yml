@@ -1,0 +1,6 @@
+name: Test module
+description: Basic module to test Satis composer manager
+package: Guicheva
+
+type: module
+core: 8.x

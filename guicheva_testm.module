@@ -1,0 +1,11 @@
+<?php
+
+function guicheva_testm_get_echo() {
+    return 'guicheva_testm echo';
+}
+
+function guicheva_testm_preprocess_page(&$variables) {
+    $page = $variables['page'];
+    echo '<pre>';var_dump(($page['#title']->__toString()));echo '</pre>';
+    echo '<pre>';var_dump(guicheva_testm_get_echo());echo '</pre>';die;
+}
